@@ -6,12 +6,9 @@ A simple Bash script to **add or remove entries** from your `/etc/hosts` file.
 
 ## 🔧 Usage
 
-### 1. Make the script executable
+Make the script executable and run with sudo:
 
 ```bash
 chmod +x managehosts.sh
-
-
-### 2. Run with sudo
 sudo ./managehosts.sh add <IP_ADDRESS> <HOSTNAME>
 sudo ./managehosts.sh remove <IP_ADDRESS> <HOSTNAME>
